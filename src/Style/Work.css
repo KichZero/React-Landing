@@ -1,0 +1,101 @@
+.blockcont2 {
+width: 100%;
+height: 100%;
+}
+
+.cont {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.infelem {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  display: flex;  
+  width: 100%;
+  height: 100%;
+}
+
+.inftext {
+  flex-direction: column;
+  padding: 10px;
+  display:flex;
+  width: 50%;
+  height: 50%;
+}
+
+.elemimg {
+  padding: 30px;
+  display: flex;
+  height: 50%;
+  
+}
+
+
+.inftext2 {
+  flex-direction: column;
+  padding: 10px;
+  display:flex;
+  width: 50%;
+  height: 50%;
+}
+
+.elemimg2 {
+  padding: 10px;
+  display: flex;
+  height: 50%;
+}
+
+
+/* BUTTON  */
+.buttontwo {
+  
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+
+}
+
+.btnn{    
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin: 0 auto;
+}
+
+.btnn span{
+  position: relative;
+  z-index: 2;
+}
+
+.btnn:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #9b98acb9;
+  transition: all .35s;
+}
+
+.btnn:hover{
+  color: #fff;
+}
+
+.btnn:hover:after{
+  width: 100%;
+}
+
