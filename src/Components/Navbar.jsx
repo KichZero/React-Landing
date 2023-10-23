@@ -25,7 +25,7 @@ function Navbar() {
   };
 
   return (
-    <header>
+    <header className="header1">
       <div className="logo">
         <img
           src="https://download.logo.wine/logo/Ethereum/Ethereum-Logo.wine.png"

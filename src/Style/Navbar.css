@@ -12,7 +12,7 @@ body {
 }
 
 /* Header styles */
-header {
+ .header1 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -107,6 +107,7 @@ nav a {
   color: rgba(255,255,255,.5);
   position: relative;
   text-decoration: none;
+
   
   margin: 0 2rem;
   color: var(--textColor);
